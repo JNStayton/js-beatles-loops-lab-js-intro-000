@@ -17,3 +17,14 @@ function johnLennonFacts (facts) {
         }
     return factsLoud;
 }
+
+
+function iLoveTheBeatles (num) {
+    var newArray = [];
+    var i = 0
+      do {
+        newArray.push ("I love the Beatles!");
+        i++
+      } while (i <= num && num <= 15);
+    return newArray;
+}
